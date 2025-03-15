@@ -1,4 +1,4 @@
-# 🚀 Guide des Bonnes Pratiques Git & GitFlow
+# 🚀 Guide des Bonnes Pratiques Git & GitFlow changes
 
 ## 📌 Branches principales
 
