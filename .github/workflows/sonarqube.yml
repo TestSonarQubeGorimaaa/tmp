@@ -21,7 +21,4 @@ jobs:
     - name: Run SonarQube analysis
       run: npx sonarqube-scanner
       env:
-        SONAR_PROJECT_KEY: testsonarqubegorimaaa
-        SONAR_ORGANIZATION: TestSonarQubeGorimaaa
-        SONAR_HOST_URL: https://sonarcloud.io
         SONAR_LOGIN: ${{ secrets.SONARQUBESECRET }}
