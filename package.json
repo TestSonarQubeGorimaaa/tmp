@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
+    "sonar": "npx sonarqube-scanner",
     "start:dev": "nodemon index.js"
   },
   "author": "",
@@ -19,6 +20,7 @@
   },
   "devDependencies": {
     "jest": "^29.7.0",
+    "sonarqube-scanner": "^3.5.0",
     "supertest": "^7.0.0"
   }
 }
