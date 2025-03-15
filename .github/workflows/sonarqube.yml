@@ -19,6 +19,8 @@ jobs:
       run: npm ci
 
     - name: Run SonarQube analysis
-      run: npx sonarqube-scanner
+      run: npx sonarqube-scanner -Dsonar.verbose=true
       env:
         SONAR_LOGIN: ${{ secrets.SONARQUBESECRET }}
+        SONAR_TOKEN: ${{ secrets.SONARQUBESECRET }}
+
